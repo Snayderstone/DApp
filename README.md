@@ -1,4 +1,4 @@
-#PagoDecentralizado
+# PagoDecentralizado
 
 Una DApp basado en Contratos Inteligentes hechos en Solidity y funcionando en la red local de Ganache.
 ## Prerequisitos
