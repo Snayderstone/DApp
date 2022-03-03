@@ -1,0 +1,65 @@
+<!--Se realiza el hipertexto de nuestro navbar que van a estar presente para navegar por nuestros componentes -->
+<div>
+  <header>
+    <div class="navbar">
+      <!-- Logo de EPMAPS -->
+      <a href="/"><img src="./assets/epmaps.png" class="img-epmaps" /></a>
+    </div>
+    <!-- Navbar en genral, con todos los items y subitems -->
+    <nav>
+      <ul class="navbar-list">
+        <li class="navbar-li">
+          <a href="">Nosotros</a>
+          <ul class="desplegable">
+            <li>Organigrama de autoridades Epmaps</li>
+            <li>Cartas y Obligaciones</li>
+            <li>Misión y Visión</li>
+            <li>Planificación Estratégica</li>
+            <li>Directorio</li>
+            <li>Política de los Sistemas de Gestión</li>
+            <li>Estudio de prevención de la Corrupción</li>
+          </ul>
+        </li>
+        <li class="navbar-li">
+          <a href="">Rendición de cuentas</a>
+          <ul class="desplegable">
+            <li>2021</li>
+            <li>Informe 2019</li>
+            <li>Informe 2018</li>
+            <li>Informe 2017</li>
+            <li>Informe 2016</li>
+            <li>Informe 2015</li>
+            <li>Informe 2014</li>
+          </ul>
+        </li>
+        <li class="navbar-li">
+          <a href="">Nuestro trabajo</a>
+          <ul class="desplegable">
+            <li>Proyectos Prioritarios</li>
+            <li>Agua potable</li>
+            <li>Sanamiento</li>
+            <li>Hidroelectricidad</li>
+            <li>Reporte de obras</li>
+            <li>Anuario de resolución a quejas y reclamos</li>
+          </ul>
+        </li>
+        <li class="navbar-li">
+          <a target="blank" href="https://www.quito.gob.ec/">Quito</a>
+        </li>
+        <li class="navbar-li">
+          <!-- Se añade el link con routerlink para enviar al componente pago-ethereum.component -->
+          <a
+            class="ether"
+            target="blank"
+            routerLink="/pagarcuenta"
+            routerLinkActive="active"
+            >Paga tu cuenta con Ethereum
+          </a>
+          <!-- Se añade la imagen de ethereum -->
+          <img class="ether-img" src="./assets/ethereum.png" alt="" />
+        </li>
+      </ul>
+    </nav>
+  </header>
+</div>
+<router-outlet></router-outlet>
