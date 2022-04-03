@@ -2,14 +2,14 @@
 
 Una DApp basado en Contratos Inteligentes hechos en Solidity y funcionando en la red local de Ganache.
 ## Prerequisitos
-- Tener Descargado e Instalado  VS
+- Tener Descargado e Instalado  VSC
 - Tener Descargado,Instalado y Configurado Git
 - Tener Descargado e Instalado  Node.js
 - Tener Descargado e Instalado  Ganache
 - Tener Instalada y conectada la cartera de Metamask con Ganache
 
 
-## Insertar en el Terminal de VS
+## Insertar en el Terminal de VSC
 
 ```bash
 npm install 
