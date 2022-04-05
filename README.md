@@ -1,22 +1,22 @@
 # PagoDecentralizado
 
 Una DApp basado en Contratos Inteligentes hechos en Solidity y funcionando en la red local de Ganache.
-## Prerequisitos
-- Tener Descargado e Instalado  VS
+## Prerrequisitos
+- Tener Descargado e Instalado  VSC
 - Tener Descargado,Instalado y Configurado Git
 - Tener Descargado e Instalado  Node.js
 - Tener Descargado e Instalado  Ganache
 - Tener Instalada y conectada la cartera de Metamask con Ganache
 
 
-## Insertar en el Terminal de VS
+## Insertar en el Terminal de VSC
 
 ```bash
 npm install 
 npm run build
 cd truffle
 npm install # sí, hay dos paquetes.json, uno para la interfaz y otro para truffle
-npm install -g truffle # si tiene problemas de Scrips, ejecuta power shell como administrador y escribe y activa lo siguiente y lo actuvas: Set-ExecutionPolicy Unrestricted 
+npm install -g truffle # si tiene problemas de Scrips, ejecuta power shell como administrador y escribe y activa lo siguiente : Set-ExecutionPolicy Unrestricted 
 ```
 
 ## Compilar y migrar los contratos inteligentes
@@ -51,7 +51,7 @@ Visita http://localhost:4200
 
 - Asegúrate de estar ejecutando "Ganache". Luego elija la primera cuenta y copie su clave privada.
 - Ir a http://localhost:4200
-- En Metamask, agregue una nueva Red, con URL http://localhost, 7545 como puerto e ID de cadena 1337. Utilice esta red para el desarrollo.
+- En Metamask, agregue una nueva red, con URL http://localhost, 7545 como puerto e ID de cadena 1337. Utilice esta red para el desarrollo.
 - También en Metamask importe una cuenta -> especifique la clave privada que copió de la primera cuenta de Ganache. __Advertencia__: no use esta cuenta como una cuenta real.
 - Recargar la aplicación web. 
  
